@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+}
+
+*,
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.topsection {
+  color: #ffffff;
+  padding: 5%;
+  padding-top: 1%;
+  background-color: #048e5d;
+  font-family: "Montserrat";
+  background-image: url(https://adegbemi.com/images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 110vh;
+}
+
+.topsection__text {
+  width: 50vw;
+}
+
+.topsection h1 {
+  font-weight: 700;
+  color: white;
+  line-height: 96px;
+  font-size: 4rem;
+}
+
+.topsection h3 {
+  font-weight: 500;
+  color: white;
+  line-height: 48px;
+  font-size: 2rem;
+}
+.button__big {
+  background-color: #ff6b10;
+  padding: 20px;
+  font-weight: 600;
+  color: white;
+  line-height: 36px;
+  font-size: 24px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.topsection button:hover {
+  background-color: #d65505;
+}
+
+.topsection button:active {
+  border: 1px solid white;
+}
+
+.trainings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 200px 80px 200px;
+}
+
+.trainings > h2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 48px;
+  color: black;
+}
+
+.trainings > h2 > span {
+  color: #f6630a;
+}
+
+.trainings > p {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.trainings button {
+  margin: auto;
+}
+
+.trainings .fas {
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.quote {
+  background-color: #048e5d;
+  padding: 50px 200px;
+  text-align: center;
+  color: white;
+}
+
+.quote p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 48px;
+}
+.quote h3 {
+  font-size: 1rem;
+  line-height: 19px;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .topsection {
+    background-position: right;
+  }
+
+  .topsection__text {
+    text-align: right;
+    width: 100%;
+    margin-top: -50px;
+  }
+
+  .trainings {
+    padding: 20px 30px 20px 30px;
+  }
+  .quote {
+    padding: 50px 50px;
+  }
+}
