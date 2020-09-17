@@ -1,0 +1,23 @@
+.wrapper{
+    margin: 150px auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.guess__input{
+    width: 40%;
+}
+
+.wrapper *{
+    padding: 10px;
+}
+
+.button__group{
+    width: 20%;
+    display: flex;
+    justify-content: space-around
+}

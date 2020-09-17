@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .container {
+            width: 50vw;
+            height: 50vh;
+            margin: 100px auto
+        }
+
+        .container * {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <input type="text" value="" class="lesson__input">
+        <div class="lesson__div">This is a div</div>
+        <p class="lesson__div">This is a div</p>
+        <button id="lesson__button">Click Me!</button> -->
+
+        <div class="result">Result</div>
+        <input type="text" class="first__input">
+        <input type="text" class="second__input">
+        <button id="submit">Result</button>
+    </div>
+
+
+
+    <script src="dom_lesson.js">
+        //getElementById
+        // let myEl = document.getElementById("lesson__button")
+        // let button_text = myEl.innerText
+
+        //getElementsByClassName
+        // let myEl2 = document.getElementsByClassName("lesson__div")
+        // console.log(myEl2)
+
+        // for (let el of myEl2) {
+        //     if (el.outerHTML === '<p class="lesson__div">This is a div</p>') {
+        //         console.log(el)
+        //     }
+        // }
+
+        //getElementsByTagName
+        // let myEl3 = document.getElementsByTagName("div")
+        // console.log(myEl3)
+
+        //querySelector
+        // let myEl4 = document.querySelector("div:first-of-type")
+        // console.log(myEl4)
+
+        //querySelectorAll
+        // let myEl5 = document.querySelectorAll("#lesson__button")
+        // console.log(myEl5)
+        // function clickMe() {
+        //     alert(mybutton.innerText)
+        // }
+        // function ChangeText() {
+        //     mybutton.innerText = "New Value"
+        // }
+        // function ChangeColor() {
+        //     mybutton.style.backgroundColor = "red"
+        // }
+        // let mybutton = document.getElementById("lesson__button")
+        // mybutton.addEventListener("click", clickMe)
+        // mybutton.addEventListener("mousemove", ChangeText)
+        // mybutton.addEventListener("mouseout", ChangeColor)
+
+    </script>
+</body>
+
+</html>
